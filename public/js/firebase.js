@@ -1,5 +1,5 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyAPhIQINE09zM_5w_09GX4djUTpFN_dGHc",
+  apiKey: "const mySecret = process.env['apiKey']",
   authDomain: "webso-c2049.firebaseapp.com",
   projectId: "webso-c2049",
   storageBucket: "webso-c2049.appspot.com",
