@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  overflow-x: hidden; /* To hide horizontal scrollbar */
+}
+
+.banner-post{
+  width: 100%;
+  height: 600px;
+  position: relative;
+  background: beige;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.title-post,
+.article-post{
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  min-height: 100px;
+  height: auto;
+  outline: none;
+  font-size: 50px;
+  font-weight: 600;
+  color: #2d2d2d;
+  resize: none;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.title::placeholder,
+.article::placeholder{
+  color: #2d2d2d;
+}
+
+.article-post{
+  height: 500px;
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  padding-bottom: 100px;
+  white-space: pre-wrap;
+}
+
+.post, .article{
+  position: relative;
+  height: fit-content;
+  padding-bottom: 0;
+}
+
+.article, .title{
+  min-height: auto;
+  height: fit-content;
+  padding: 0 10px;
+  white-space: normal;
+}
+
+.publish{
+  margin: 20px 0 60px;
+  padding: 0 10px;
+  text-transform: capitalize;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.publish span{
+  font-weight: 700;
+  font-style: normal;
+}
+
+.article *{
+  margin: 30px 0;
+  color: #2d2d2d;
+}
+
+.article-image{
+  max-width: 100%;
+  max-height: 400px;
+  display: block;
+  margin: 30px auto;
+  object-fit: contain;
+}
+
+.sub-heading{
+  padding: 0 5vw;
+  color: skyblue;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 80px;
+}
+
+.navbar-blog{
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5ve;
+  background: #fff;
+  z-index: 9;
+}
+
+.links-container{
+  display: contents;
+  list-style: none;
+  right: 0;
+}
+
+.link-item{
+  padding: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.link{
+  font-size: 15px;
+  color: white;
+  background: skyblue;
+  border-radius: 5px;
+  transition: 0.3s;
+}

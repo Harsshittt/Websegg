@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Albums</title>
+    <link rel="stylesheet" href="albums.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body class="albums">
+    <header class="albums-page">
+      <!-- Navigation Section -->
+      <nav class="nav">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="sub-menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="images.html">Images</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <section class="Albums" id="Albums">
+        <div class="Albums-text container">
+          <h2 class="Albums-title">Albums</h2>
+          <span class="Albums-subtitle">Space Of Albums</span>
+        </div>
+      </section>
+
+      
+      <!-- Section for displaying blog albums -->
+      <section class="blog-albums-section" id="blogAlbumsSection">
+        <!-- Content will be dynamically added by albums.js -->
+      </section>
+
+      <!-- Hidden link to navigate to the gallery page -->
+      <a href="gallery.html" id="galleryLink" style="display: none"></a>
+
+      <!-- Script tags for Firebase and your JavaScript files -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/8.10.1/firebase-app.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/8.10.1/firebase-firestore.js"></script>
+      <script src="js/firebase.js"></script>
+      <script src="js/albums.js"></script>
+    </header>
+
+
+    
+  </body>
+</html>

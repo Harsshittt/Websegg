@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMAGES</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body class="images">
+ 
+  <header class="images-page">
+
+    
+
+ 
+
+     <nav class="nav">
+           <div class="one"></div>
+           <div class="two"></div>
+           <div class="three"></div>
+           <div class="sub-menu">
+               
+             <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="images.html">Images</a></li>
+                   <li><a href="albums.html">Albums</a></li>
+                   <li><a href="#">Videos</a></li>
+                   <li><a href="#">Notes</a></li>
+                   
+               
+             </ul>
+           
+           </div>
+    </nav>
+
+    <div class="search-container">
+        <input type="text" id="blog-search" placeholder="Search by Title...">
+        <button onclick="searchBlogs()" id="searchBtn">Search</button>
+     </div>
+          
+   
+
+
+    
+  </header>
+
+  <section class="Images" id="Images">
+    <div class="Images-text container">
+      <h2 class="Images-title">Images</h2>
+      <span class="Images-subtitle">A Broad Collection Of Images</span>
+    </div>
+  </section>
+
+
+  <div class="post-filter container">
+    <span class="filter-item active-filter" data-filter="all">All</span>
+    <span class="filter-item" data-filter="real">Real</span>
+    <span class="filter-item" data-filter="ai">AI</span>
+    <span class="filter-item" data-filter="pornstars">Pornstars</span>
+    <span class="filter-item" data-filter="hentai">Hentai</span>
+    <span class="filter-item" data-filter="edited">Edited</span>
+  </div>
+
+
+  <a href="/editor" class="btn-post">POST</a>
+
+
+  <section class="blogs-section">
+    <!-- <div class="blog-card">
+      <img src="" class="blog-image" alt="">
+      <h1 class="blog-title"></h1>
+      <p class="blog-overview"></p>
+      <a href ="/" class="btn dark">View</a>
+    </div> -->
+  </section>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/8.10.1/firebase-app.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/8.10.1/firebase-firestore.js"></script>
+
+  <script src="js/firebase.js"></script>
+  <script src="js/images.js"></script>
+  <script src="js/server.js"></script>
+  
+</body>
+
+</html>
