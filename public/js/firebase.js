@@ -1,12 +1,11 @@
 const firebaseConfig = {
-  apiKey: "const mySecret = process.env['apiKey']",
+  apiKey: "AIzaSyAPhIQINE09zM_5w_09GX4djUTpFN_dGHc",
   authDomain: "webso-c2049.firebaseapp.com",
   projectId: "webso-c2049",
   storageBucket: "webso-c2049.appspot.com",
   messagingSenderId: "269018676076",
-  appId: "1:269018676076:web:a31418372fac3dd44e1149"
+  appId: "1:269018676076:web:a31418372fac3dd44e1149",
 };
-
 
 firebase.initializeApp(firebaseConfig);
 
