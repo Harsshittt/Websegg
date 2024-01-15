@@ -26,7 +26,7 @@ const uploadImage = (uploadFile, uploadType) => {
         const formdata = new FormData();
         formdata.append('image', file);
 
-        fetch('/upload', {
+        fetch('/public/upload', {
             method: 'post',
             body: formdata
         }).then(res => res.json())
